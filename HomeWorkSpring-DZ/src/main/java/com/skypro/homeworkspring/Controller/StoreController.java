@@ -14,6 +14,7 @@ import java.util.List;
 
 public class StoreController {
 
+
     private final StoreService storeService;
 
     public StoreController(StoreService storeService) {
