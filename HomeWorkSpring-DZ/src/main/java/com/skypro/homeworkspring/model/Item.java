@@ -22,6 +22,7 @@ public class Item {
         return title;
     }
 
+
     public double getPrice() {
         return price;
     }
