@@ -14,6 +14,7 @@ import java.util.List;
 
 public class StoreController {
 
+
     private final StoreService storeService;
 
     public StoreController(StoreService storeService) {
@@ -25,7 +26,11 @@ public class StoreController {
     public void add(@RequestParam("id") List<Integer> ids) {
         storeService.add(ids);
 
+
+
     }
+
+
 
     @GetMapping("/get")
     public List<Item> get() {
