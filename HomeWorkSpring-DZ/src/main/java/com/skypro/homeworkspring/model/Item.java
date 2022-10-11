@@ -17,6 +17,7 @@ public class Item {
         return id;
     }
 
+
     public String getTitle() {
         return title;
     }

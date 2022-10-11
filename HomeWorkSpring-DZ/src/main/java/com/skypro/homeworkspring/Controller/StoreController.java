@@ -26,7 +26,10 @@ public class StoreController {
     public void add(@RequestParam("id") List<Integer> ids) {
         storeService.add(ids);
 
+
+
     }
+
 
     @GetMapping("/get")
     public List<Item> get() {
